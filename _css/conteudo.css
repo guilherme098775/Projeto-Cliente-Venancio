@@ -35,7 +35,7 @@ p {
 button {
     display: block;
     margin: 20px auto;
-    background: #28a745;
+    background: rgba(0, 0, 0, 0.459);
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background: #218838;
+    background: rgba(51, 51, 51, 0.459);
     padding: 15px 20px;
     transition: 1s ease;
 }
