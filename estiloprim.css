@@ -91,9 +91,9 @@ nav a:hover::after {
 @media (max-width: 900px) {
     header {
         flex-direction: column;
-        height: auto;
+        height: 400px;
         padding: 1rem;
-        background-size: 400px;
+        background-size: 350px;
     }
     .logo {
         margin-bottom: 1rem;
@@ -109,7 +109,7 @@ nav a:hover::after {
         align-items: flex-start;
         padding: 1rem 0.5rem;
         background-size: 240px;
-        height: auto;
+        height: 250px;
     }
     .logo img {
         width: 45px;
