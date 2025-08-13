@@ -93,7 +93,7 @@ nav a:hover::after {
         flex-direction: column;
         height: auto;
         padding: 1rem;
-        background-size: 250px;
+        background-size: 400px;
     }
     .logo {
         margin-bottom: 1rem;
@@ -108,7 +108,7 @@ nav a:hover::after {
         flex-direction: column;
         align-items: flex-start;
         padding: 1rem 0.5rem;
-        background-size: 120px;
+        background-size: 240px;
         height: auto;
     }
     .logo img {
