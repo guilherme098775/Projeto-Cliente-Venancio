@@ -98,3 +98,46 @@
             background: white;
             transform: scale(1.1);
         }
+
+@media (max-width: 900px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .instagram-section {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        max-width: 100%;
+    }
+    .carousel-item img {
+        height: 220px;
+    }
+    .instagram-section h2 {
+        font-size: 1.5rem;
+    }
+    .instagram-section p {
+        font-size: 1rem;
+    }
+    .instagram-section button {
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .carousel-controls {
+        padding: 0 5px;
+    }
+    .botao-prev, .botao-next {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+}
+
+/* Exibe os controles do carrossel em telas pequenas */
+@media (max-width: 900px) {
+    .carousel-controls {
+        display: flex !important;
+    }
+}
