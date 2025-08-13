@@ -125,19 +125,4 @@
         padding: 0.7rem 1.2rem;
         font-size: 1rem;
     }
-    .carousel-controls {
-        padding: 0 5px;
-    }
-    .botao-prev, .botao-next {
-        width: 32px;
-        height: 32px;
-        font-size: 1rem;
-    }
-}
 
-/* Exibe os controles do carrossel em telas pequenas */
-@media (max-width: 900px) {
-    .carousel-controls {
-        display: flex !important;
-    }
-}
