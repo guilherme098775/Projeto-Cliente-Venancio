@@ -16,7 +16,7 @@ body {
 
 /* Header Styles */
 header {
-    background-image: url(/_img/Logo_venancio.jpeg) /* Use the correct path to your image */;
+    background-image: url(Logo_venancio.jpeg) /* Use the correct path to your image */;
     background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
